@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-model-interface = {git = "https://github.com/VLMHyperBenchTeam/model_interface.git", rev = "0.1.0"}
+model-interface = {git = "https://github.com/VLMHyperBenchTeam/model_interface.git", rev = "0.1.1"}
 
 
 [build-system]

@@ -12,10 +12,10 @@ develop = false
 [package.source]
 type = "git"
 url = "https://github.com/VLMHyperBenchTeam/model_interface.git"
-reference = "0.1.0"
-resolved_reference = "7c65c93f0d9731c335e5ccb74218a82ef5f4ebf6"
+reference = "0.1.1"
+resolved_reference = "26e01f3cb23a6b9bdfe1322c118de352f087e5a1"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b1a6527b73b39371795cb4f30eb448759b3cabd94d2347840aa90d81885f1d92"
+content-hash = "0f7549423f6d33f385dabf8819b8354c3eb9bba3b5724a368d24415c9ae7580d"
