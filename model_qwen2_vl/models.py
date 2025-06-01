@@ -134,7 +134,7 @@ class Qwen2VLModel(ModelInterface):
             # Генерация с обработкой ошибок памяти
             with torch.autocast(device_type="cuda", dtype=torch.bfloat16):
                 generated_ids = self.model.generate(
-                    **inputs, max_new_tokens=512, do_sample=False
+                    **inputs, max_new_tokens=512,
                 )
 
             # Постобработка результата
@@ -218,8 +218,7 @@ class Qwen2VLModel(ModelInterface):
             with torch.autocast(device_type=self.model.device.type, dtype=torch.bfloat16):
                 generated_ids = self.model.generate(
                     **inputs,
-                    max_new_tokens=512,
-                    do_sample=False
+                    max_new_tokens=512
                 )
                 
             # Постобработка результата
